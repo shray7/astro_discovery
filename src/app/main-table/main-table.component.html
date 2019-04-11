@@ -1,0 +1,150 @@
+<div class="container">
+  <mat-table [dataSource]="dataSource" class="mat-elevation-z8" multiTemplateDataRows>
+
+    <!--- Note that these columns can be defined in any order. The actual rendered columns are set as a property on the row definition" -->
+
+
+    <ng-container matColumnDef="env">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element">{{element.name}}</td>
+    </ng-container>
+    <ng-container matColumnDef="details" sticky>
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element">
+        <div (click)='highlightVersion()' class="version cursor">Version:</div>
+        <div (click)='highlightBuilt()' class="built cursor">Built:</div>
+        <div (click)='highlightDb()' class="db cursor">DB:</div>
+        <div (click)='highlightDbver()' class="dbver cursor" >DB Ver:</div>
+        <div (click)='highlightSolver()' class="dbsolver cursor">Solver:</div>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="dev">
+      <th mat-header-cell *matHeaderCellDef> DEV </th>
+      <td mat-cell *matCellDef="let element">
+        <div *ngIf="!element.dev.version" #blink class="blinkingRed">Failed To Deploy</div>
+        <mat-card *ngIf="element.dev.version">
+          <mat-card-content *ngIf="element.dev.version">
+            <div class="version">{{element.dev.version}}</div>
+            <div class="built">{{element.dev.built}}</div>
+            <div class="db">{{element.dev.db}}</div>
+            <div class="dbver" *ngIf="!element.dev.solverError">{{element.dev.dbver}}</div>
+            <div class="dbsolver" *ngIf="!element.dev.solverError">{{element.dev.solverver}}</div>
+            <div class="dbver blinkingRed" *ngIf="element.dev.solverError"> Failed</div>
+            <div class="dbsolver blinkingRed" *ngIf="element.dev.solverError"> Failed</div>
+          </mat-card-content>
+          <mat-card-actions *ngIf="element.dev.site">
+            <a mat-stroked-button (click)="openWindow(element.dev.site)">Site</a>
+            <a mat-stroked-button (click)="openWindow(element.dev.opsmgr)">OpsMgr</a>
+            <a mat-stroked-button (click)="openWindow(element.dev.reports)">Reports</a>
+            <a mat-stroked-button (click)="openWindow(element.dev.pilotPortal)">Pilot Portal</a>
+          </mat-card-actions>
+        </mat-card>
+
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="qa">
+      <th mat-header-cell *matHeaderCellDef> QA </th>
+      <td mat-cell *matCellDef="let element">
+        <div *ngIf="!element.qa.version" #blink class="blinkingRed">Failed To Deploy</div>
+        <mat-card *ngIf="element.qa.version">
+          <mat-card-content>
+            <div class="version">{{element.qa.version}}</div>
+            <div class="built">{{element.qa.built}}</div>
+            <div class="db">{{element.qa.db}}</div>
+            <div class="dbver" *ngIf="!element.qa.solverError">{{element.qa.dbver}}</div>
+            <div class="dbsolver"  *ngIf="!element.qa.solverError">{{element.qa.solverver}}</div>
+            <div class="dbver blinkingRed" *ngIf="element.qa.solverError"> Failed</div>
+            <div class="dbsolver blinkingRed" *ngIf="element.qa.solverError"> Failed</div>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-stroked-button (click)="openWindow(element.qa.site)">Site</a>
+            <a mat-stroked-button (click)="openWindow(element.qa.opsmgr)">OpsMgr</a>
+            <a mat-stroked-button (click)="openWindow(element.qa.reports)">Reports</a>
+            <a mat-stroked-button (click)="openWindow(element.qa.pilotPortal)">Pilot Portal</a>
+          </mat-card-actions>
+        </mat-card>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="prod">
+      <th mat-header-cell *matHeaderCellDef> PROD </th>
+      <td mat-cell *matCellDef="let element">
+        <div *ngIf="!element.prod.version" #blink class="blinkingRed">Failed To Deploy</div>
+        <mat-card *ngIf="element.prod.version">
+          <mat-card-content>
+            <div class="version">{{element.prod.version}}</div>
+            <div class="built">{{element.prod.built}}</div>
+            <div class="db">{{element.prod.db}}</div>
+            <div class="dbver"  *ngIf="!element.prod.solverError">{{element.prod.dbver}}</div>
+            <div class="dbsolver"  *ngIf="!element.prod.solverError">{{element.prod.solverver}}</div>
+            <div class="dbver blinkingRed" *ngIf="element.prod.solverError"> Failed</div>
+            <div class="dbsolver blinkingRed" *ngIf="element.prod.solverError"> Failed</div>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-stroked-button (click)="openWindow(element.prod.site)">Site</a>
+            <a mat-stroked-button (click)="openWindow(element.prod.opsmgr)">OpsMgr</a>
+            <a mat-stroked-button (click)="openWindow(element.prod.reports)">Reports</a>
+            <a mat-stroked-button (click)="openWindow(element.prod.pilotPortal)" *ngIf="element.prod.opsmgr">Pilot
+              Portal</a>
+          </mat-card-actions>
+        </mat-card>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="stage">
+      <th mat-header-cell *matHeaderCellDef> STAGE </th>
+      <td mat-cell *matCellDef="let element">
+          <div *ngIf="!element.stage.version && !element.stage.hide" #blink class="blinkingRed">Failed To Deploy</div>
+        <mat-card *ngIf="element.stage.version">
+          <mat-card-content>
+            <div class="version">{{element.stage.version}}</div>
+            <div class="built">{{element.stage.built}}</div>
+            <div class="db">{{element.stage.db}}</div>
+            <div class="dbver" *ngIf="!element.stage.solverError">{{element.stage.dbver}}</div>
+            <div class="dbsolver"  *ngIf="!element.stage.solverError">{{element.stage.solverver}}</div>
+            <div class="dbver blinkingRed" *ngIf="element.stage.solverError"> Failed</div>
+            <div class="dbsolver blinkingRed" *ngIf="element.stage.solverError"> Failed</div>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-stroked-button (click)="openWindow(element.stage.site)" *ngIf="element.stage.site">Site</a>
+            <a mat-stroked-button (click)="openWindow(element.stage.opsmgr)" *ngIf="element.stage.opsmgr">OpsMgr</a>
+            <a mat-stroked-button (click)="openWindow(element.stage.reports)" *ngIf="element.stage.reports">Reports</a>
+            <a mat-stroked-button (click)="openWindow(element.stage.pilotPortal)"
+              *ngIf="element.stage.pilotPortal">Pilot Portal</a>
+          </mat-card-actions>
+        </mat-card>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="live">
+      <th mat-header-cell *matHeaderCellDef> LIVE(Production) </th>
+      <td mat-cell *matCellDef="let element">
+        <div *ngIf="!element.live.version" #blink class="blinkingRed">Failed To Deploy</div>
+        <mat-card *ngIf="element.live.version">
+          <mat-card-content>
+            <div class="version">{{element.live.version}}</div>
+            <div class="built">{{element.live.built}}</div>
+            <div class="db">{{element.live.db}}</div>
+            <div class="dbver" *ngIf="!element.live.solverError">{{element.live.dbver}}</div>
+            <div class="dbsolver" *ngIf="!element.live.solverError">{{element.live.solverver}}</div>
+            <div class="dbver blinkingRed" *ngIf="element.live.solverError"> Failed</div>
+            <div class="dbsolver blinkingRed" *ngIf="element.live.solverError"> Failed</div>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-stroked-button (click)="openWindow(element.live.site)" *ngIf="element.live.site">Site</a>
+            <a mat-stroked-button (click)="openWindow(element.live.opsmgr)" *ngIf="element.live.opsmgr">OpsMgr</a>
+            <a mat-stroked-button (click)="openWindow(element.live.reports)" *ngIf="element.live.reports">Reports</a>
+            <a mat-stroked-button (click)="openWindow(element.live.pilotPortal)" *ngIf="element.live.pilotPortal">Pilot
+              Portal</a>
+          </mat-card-actions>
+        </mat-card>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+  </mat-table>
+</div>

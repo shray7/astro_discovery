@@ -1,0 +1,96 @@
+.mat-card-img {
+    height: 50px;
+    width: 50px;
+}
+
+.mat-card-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+.mat-card-content {
+    margin: auto;
+    margin: 0 auto;
+}
+
+.mat-card {
+    height: 150vh;
+    width: 85%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.mat-toolbar {
+    max-width: 100%;
+    background-color: midnightblue;
+}
+
+.cache {
+    vertical-align: middle;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.wallpaper {
+    margin-left: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.slider {
+    margin-left: 5px;
+}
+
+.buttons {
+    width: 15%;
+    margin-right: 90px;
+    margin-left: auto;
+}
+
+.keepRight {
+    float: right;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 175px 175px 175px 175px 200px;
+}
+
+.refreshTitle {
+    margin-top: 5px;
+}
+
+.refresh {
+    width: 45px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+.mat-form-field {
+    width: 20%;
+    height: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 110px 50px;
+    height: 40px;
+}
+.wpTitle{
+    margin-top: 10px;
+}
+
+.bg1 {
+    height: 100%;
+    background-size: cover;
+    width: auto;
+    background-image: url('./../assets/Bkg/5.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.network{
+    padding: 5px;
+}

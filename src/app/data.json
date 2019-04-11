@@ -1,0 +1,454 @@
+[
+    {
+        "test": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_BIQ-TEST/ASTROSvc_BIQ-TEST",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=administrator",
+            "reports": "http://ASTRO-RPT_BIQ-TEST/Reports/Pages/Folder.aspx?ItemPath=%2fBIQ-TEST",
+            "pilotPortal": "http://ASTRO-WEB_BIQ-TEST/ASTROWeb_BIQ-TEST",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_BIQ-TEST/ASTROSvc_BIQ-TEST?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "testq": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_BIQ-TESTQ/ASTROSvc_BIQ-TESTQ",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=administrator",
+            "reports": "http://ASTRO-RPT_BIQ-TESTQ/Reports/Pages/Folder.aspx?ItemPath=%2fBIQ-TESTQ",
+            "pilotPortal": "http://ASTRO-WEB_BIQ-TESTQ/ASTROWeb_BIQ-TESTQ",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_BIQ-TESTQ/ASTROSvc_BIQ-TESTQ?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "testp": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_BIQ-TESTP/ASTROSvc_BIQ-TESTP",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=administrator",
+            "reports": "http://ASTRO-RPT_BIQ-TESTP/Reports/Pages/Folder.aspx?ItemPath=%2fBIQ-TESTP",
+            "pilotPortal": "http://ASTRO-WEB_BIQ-TESTP/ASTROWeb_BIQ-TESTP",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_BIQ-TESTP/ASTROSvc_BIQ-TESTP?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "devoff": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "demo": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_BIQ-DEMO/ASTROSvc_BIQ-Demo",
+            "opsmgr": null,
+            "reports": "http://ASTRO-RPT_BIQ-DEMO/Reports/Pages/Folder.aspx?ItemPath=%2fBIQ-DEMO",
+            "pilotPortal": "http://ASTRO-WEB_BIQ-DEMO/ASTROWeb_BIQ-DEMO",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_BIQ-DEMO/ASTROSvc_BIQ-Demo?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "BIQ"
+    },
+    {
+        "test": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_JP-TEST/ASTROSvc_JP-TEST",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=jepdeveloper",
+            "reports": "http://ASTRO-RPT_JP-TEST/Reports/Pages/Folder.aspx?ItemPath=%2fJP-TEST",
+            "pilotPortal": "http://ASTRO-WEB_JP-TEST/ASTROWeb_JP-TEST",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_JP-TEST/ASTROSvc_JP-TEST?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "testq": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_JP-TESTQ/ASTROSvc_JP-TESTQ",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=jepdeveloper",
+            "reports": "http://ASTRO-RPT_JP-TESTQ/Reports/Pages/Folder.aspx?ItemPath=%2fJP-TESTQ",
+            "pilotPortal": "http://ASTRO-WEB_JP-TESTQ/ASTROWeb_JP-TESTQ",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_JP-TESTQ/ASTROSvc_JP-TESTQ?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "testp": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_JP-TESTP/ASTROSvc_JP-TESTP",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=jepdeveloper",
+            "reports": "http://ASTRO-RPT_JP-TESTP/Reports/Pages/Folder.aspx?ItemPath=%2fJP-TESTP",
+            "pilotPortal": "http://ASTRO-WEB_JP-TESTP/ASTROWeb_JP-TESTP",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_JP-TESTP/ASTROSvc_JP-TESTP?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "devoff": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "demo": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "name": "JP"
+    }
+]
+
+[
+    {
+        "dev": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_ACR-DEV/ASTROSvc_ACR-DEV",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_ACR-DEV/Reports/browse/ACR-DEV",
+            "pilotPortal": "http://ASTRO-WEB_ACR-DEV/ASTROWeb_ACR-DEV",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_ACR-DEV/ASTROSvc_ACR-DEV?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "qa": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_ACR-QA/ASTROSvc_ACR-QA",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_ACR-QA/Reports/browse/ACR-QA",
+            "pilotPortal": "http://ASTRO-WEB_ACR-QA/ASTROWeb_ACR-QA",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_ACR-QA/ASTROSvc_ACR-QA?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "prod": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_ACR-PROD/ASTROSvc_ACR-PROD",
+            "reports": "http://ASTRO-RPT_ACR-PROD/Reports/browse/ACR-PROD",
+            "pilotPortal": "http://ASTRO-WEB_ACR-PROD/ASTROWeb_ACR-PROD",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_ACR-PROD/ASTROSvc_ACR-PROD?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "stage": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "live": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://189.206.77.51/astrosvc",
+            "requestSolver": true,
+            "site": "http://189.206.77.51/astrosvc?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "ACR"
+    },
+    {
+        "dev": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_EAS-DEV/ASTROSvc_EAS-DEV",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_EAS-DEV/Reports/Pages/Folder.aspx?ItemPath=%2fEAS-DEV",
+            "pilotPortal": "http://ASTRO-WEB_EAS-DEV/ASTROWeb_EAS-DEV",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_EAS-DEV/ASTROSvc_EAS-DEV?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "qa": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_EAS-QA/ASTROSvc_EAS-QA",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_EAS-QA/Reports/Pages/Folder.aspx?ItemPath=%2fEAS-QA",
+            "pilotPortal": "http://ASTRO-WEB_EAS-QA/ASTROWeb_EAS-QA",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_EAS-QA/ASTROSvc_EAS-QA?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "prod": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_EAS-PROD/ASTROSvc_EAS-PROD",
+            "reports": "http://ASTRO-RPT_EAS-PROD/Reports/Pages/Folder.aspx?ItemPath=%2fEAS-PROD",
+            "pilotPortal": "http://ASTRO-WEB_EAS-PROD/ASTROWeb_EAS-PROD",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_EAS-PROD/ASTROSvc_EAS-PROD?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "stage": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "live": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://184.106.41.230/ASTROSvc",
+            "requestSolver": true,
+            "site": "http://184.106.41.230/ASTROSvc?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "EAS"
+    },
+    {
+        "dev": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_GA-DEV/ASTROSvc_GA-DEV",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_GA-DEV/Reports/browse/GA-DEV",
+            "pilotPortal": "http://ASTRO-WEB_GA-DEV/ASTROWeb_GA-DEV",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_GA-DEV/ASTROSvc_GA-DEV?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "qa": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_GA-QA/ASTROSvc_GA-QA",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_GA-QA/Reports/browse/GA-QA",
+            "pilotPortal": "http://ASTRO-WEB_GA-QA/ASTROWeb_GA-QA",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_GA-QA/ASTROSvc_GA-QA?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "prod": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_GA-PROD/ASTROSvc_GA-PROD",
+            "reports": "http://ASTRO-RPT_GA-PROD/Reports/browse/GA-PROD",
+            "pilotPortal": "http://ASTRO-WEB_GA-PROD/ASTROWeb_GA-PROD",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_GA-PROD/ASTROSvc_GA-PROD?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "stage": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "https://stg.globeair.com/ASTROSvc_ga-Stage",
+            "requestSolver": true,
+            "site": "https://stg.globeair.com/ASTROSvc_ga-Stage?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "live": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "https://api.globeair.com/astrosvc",
+            "requestSolver": true,
+            "site": "https://api.globeair.com/astrosvc?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "GA"
+    },
+    {
+        "dev": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_JS-DEV/ASTROSvc_JS-DEV",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_JS-DEV/Reports/Pages/Folder.aspx?ItemPath=%2fJS-DEV",
+            "pilotPortal": "http://ASTRO-WEB_JS-DEV/ASTROWeb_JS-DEV",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_JS-DEV/ASTROSvc_JS-DEV?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "qa": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_JS-QA/ASTROSvc_JS-QA",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_JS-QA/Reports/Pages/Folder.aspx?ItemPath=%2fJS-QA",
+            "pilotPortal": "http://ASTRO-WEB_JS-QA/ASTROWeb_JS-QA",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_JS-QA/ASTROSvc_JS-QA?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "prod": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_JS-PROD/ASTROSvc_JS-PROD",
+            "reports": "http://ASTRO-RPT_JS-PROD/Reports/Pages/Folder.aspx?ItemPath=%2fJS-PROD",
+            "pilotPortal": "http://ASTRO-WEB_JS-PROD/ASTROWeb_JS-PROD",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_JS-PROD/ASTROSvc_JS-PROD?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "stage": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://206.193.214.18:25809/ASTROSvc_Stage",
+            "requestSolver": true,
+            "site": "http://206.193.214.18:25809/ASTROSvc_Stage?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "live": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "https://astrosvc.jetsuite.com/astrosvc",
+            "requestSolver": true,
+            "site": "https://astrosvc.jetsuite.com/astrosvc?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "JS"
+    },
+    {
+        "dev": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_KL-DEV/ASTROSvc_KL-DEV",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_KL-DEV/Reports/Pages/Folder.aspx?ItemPath=%2fKL-DEV",
+            "pilotPortal": "http://ASTRO-WEB_KL-DEV/ASTROWeb_KL-DEV",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_KL-DEV/ASTROSvc_KL-DEV?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "qa": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_KL-QA/ASTROSvc_KL-QA",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_KL-QA/Reports/Pages/Folder.aspx?ItemPath=%2fKL-QA",
+            "pilotPortal": "http://ASTRO-WEB_KL-QA/ASTROWeb_KL-QA",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_KL-QA/ASTROSvc_KL-QA?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "prod": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_KL-PROD/ASTROSvc_KL-PROD",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com&baseUrl=http://ASTRO-WEB_KL-PROD/ASTROSvc_KL-PROD&appUrl=http://ASTRO-WEB_KL-PROD/Apps_KL-PROD/.",
+            "reports": "http://ASTRO-RPT_KL-PROD/Reports/Pages/Folder.aspx?ItemPath=%2fKL-PROD",
+            "pilotPortal": "http://ASTRO-WEB_KL-PROD/ASTROWeb_KL-PROD",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_KL-PROD/ASTROSvc_KL-PROD?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "stage": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "live": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "https://pilot.kalittaair.com/astrosvc",
+            "requestSolver": true,
+            "site": "https://pilot.kalittaair.com/astrosvc?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "KL"
+    },
+    {
+        "dev": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_PS-DEV/ASTROSvc_PS-DEV",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_PS-DEV/Reports/browse/PS-DEV",
+            "pilotPortal": "http://ASTRO-WEB_PS-DEV/ASTROWeb_PS-DEV",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_PS-DEV/ASTROSvc_PS-DEV?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "qa": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_PS-QA/ASTROSvc_PS-QA",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_PS-QA/Reports/browse/PS-QA",
+            "pilotPortal": "http://ASTRO-WEB_PS-QA/ASTROWeb_PS-QA",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_PS-QA/ASTROSvc_PS-QA?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "prod": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_PS-PROD/ASTROSvc_PS-PROD",
+            "reports": "http://ASTRO-RPT_PS-PROD/Reports/browse/PS-PROD",
+            "pilotPortal": "http://ASTRO-WEB_PS-PROD/ASTROWeb_PS-PROD",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_PS-PROD/ASTROSvc_PS-PROD?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "stage": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "live": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "https://log.planesense.com/astrosvc",
+            "requestSolver": true,
+            "site": "https://log.planesense.com/astrosvc?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "PS"
+    },
+    {
+        "dev": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_TW-DEV/ASTROSvc_TW-DEV",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_TW-DEV/Reports/browse/TW-DEV",
+            "pilotPortal": "http://ASTRO-WEB_TW-DEV/ASTROWeb_TW-DEV",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_TW-DEV/ASTROSvc_TW-DEV?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "qa": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_TW-QA/ASTROSvc_TW-QA",
+            "opsmgr": "http://boldiq_test/ClickOnceSSO/?userName=sa@boldiq.com",
+            "reports": "http://ASTRO-RPT_TW-QA/Reports/browse/TW-QA",
+            "pilotPortal": "http://ASTRO-WEB_TW-QA/ASTROWeb_TW-QA",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_TW-QA/ASTROSvc_TW-QA?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "prod": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "http://ASTRO-WEB_TW-PROD/ASTROSvc_TW-PROD",
+            "reports": "http://ASTRO-RPT_TW-PROD/Reports/browse/TW-PROD",
+            "pilotPortal": "http://ASTRO-WEB_TW-PROD/ASTROWeb_TW-PROD",
+            "requestSolver": true,
+            "site": "http://ASTRO-WEB_TW-PROD/ASTROSvc_TW-PROD?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "stage": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "hide": true
+        },
+        "live": {
+            "error": false,
+            "solverError": false,
+            "apiKey": "158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27",
+            "baseurl": "https://astroapi.flytradewind.com",
+            "requestSolver": true,
+            "site": "https://astroapi.flytradewind.com?158A50E3-77C2-4BF8-9BF5-2E3EDC18FA27"
+        },
+        "name": "TW"
+    }
+]

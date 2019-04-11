@@ -1,0 +1,39 @@
+<div class="bg1" #bg>
+  <mat-toolbar color="primary">
+
+    <span><mat-icon svgIcon="network" class='network'></mat-icon></span>
+    <span>Astro Discovery</span>
+    <span class="buttons">
+      <span class="grid-container keepRight">
+        <a class="mat-raised-button cache" target="_blank"
+          matTooltip="Clean Online App Cache between executions of OpsMgr (or OperPro) from different instances in order to avoid a 'same identity is already installed' error."
+          href="http://boldiq_test/CleanOnlineAppCache/CleanOnlineAppCache.exe">
+          <mat-icon class="cache">cached</mat-icon>
+          <span class="cache">Clean Cache</span>
+        </a>
+        <span class="grid" >
+          <span class="refreshTitle" matTooltip="Last refreshed at {{getCurrentDateTime()}}">Refresh(s): </span>
+          <input class="refresh" matInput type='number' [(ngModel)]="refreshTime" (change)="fireRefresh()"
+            matTooltip="Choose value above 5s" />
+        </span>
+
+        <span class="cache wallpaper">
+
+          <span class="cache wpTitle">Wallpaper </span>
+          <mat-slide-toggle (change)="wpChange()"></mat-slide-toggle>
+        </span>
+
+        <span>
+            <app-highlighter [heading]="'Highlight'" [color]="'#F0CA68'"></app-highlighter>
+        </span>
+      </span>
+    </span>
+    <span></span>
+
+
+  </mat-toolbar>
+  <app-main-table></app-main-table>
+  <app-test-table></app-test-table>
+  
+  <router-outlet></router-outlet>
+</div>
